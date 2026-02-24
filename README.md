@@ -69,3 +69,8 @@ bash scripts/start_agent.sh
 
 Check status:
 bash scripts/status_agent.sh
+
+#### Do you know?
+The CloudWatch Logs Agent (CloudWatch Agent) is configured through a JSON-formatted configuration file.
+This file specifies the log files to monitor, the log group to send the data to, and other parameters such as
+log rotation settings and timestamps.
